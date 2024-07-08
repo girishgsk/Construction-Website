@@ -1,0 +1,17 @@
+@media only screen and (max-width:600px) {
+    body{
+        width: 100%;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+}

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Bree+Serif&family=Italianno&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px 10px;
+    margin: 19px 13px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    
+}
+.nav-list{
+  display: flex;
+  width: 50%;
+ 
+  font-size: 40px;
+}
+.nav-list li{
+    margin: 35px;
+    list-style: none;
+    color: azure;
+    
+}
+.nav-list li a{
+    font-size: 20px;
+}
+.nav-list li:hover{
+    cursor: pointer;
+    color: rgb(124, 124, 124);
+  
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 30px;
+    margin: 20px 10px;
+}
+
+.background{
+    background:rgb(0, 0, 0, 0.7) url('../bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+h1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 70px;
+    color: beige;
+    padding-top:100px;
+}
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+.heading{
+    height: 100vh;
+}
+.first-half{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: antiquewhite;
+
+}
+
+.second-half img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellowgreen;
+    border-radius: 150px;
+    margin-left: 12px;
+}
+.text-big{
+    font-size: 33px;
+}
+.text-small{
+    font-size: 19px;
+}
+.btn-heading{
+    padding: 6px 7px;
+    margin: 7px 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.btn-heading:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+/*-----------------Mid Section -------------------------------*/
+.mid-section{
+    background-color: antiquewhite;
+}
+h2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    color: goldenrod;
+    padding-top:70px;
+    
+}
+.box1-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 80px;
+}
+.firt-half{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+     
+}
+.firt-half img{
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    padding: 1px;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+.sec-half{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 2, 0);
+    margin-top: 20px;
+
+}
+.text1-big{
+    font-size: 40px;
+    color: rgb(67, 33, 106);
+    
+}
+.text1-small{
+    font-size: 20px;
+    margin: 30px;
+    justify-items: center;
+    align-content: center;
+    font-family: 'Amita', cursive;
+    color: rgb(54, 19, 19);
+}
+.roles{
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*---------------Third section ---------------------*/
+
+.Third-section{
+    margin-top: 50px;
+}
+h3{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    color: goldenrod;  
+}
+
+.challenge{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    padding: 20px;
+}
+h4{
+    padding-top:30px ;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Italianno', cursive;
+}
+.chaleng-sen{
+    font-size: 20px;
+    font-family: 'Amita', cursive;
+}
+.chalenge-img{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 500px;
+    padding-top: 100px;
+    
+}
+.chalenge-img img{
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+/*--------------------Contact form ---------------------*/
+.contact-form{
+    background-color: rgb(209, 216, 216);
+    height: 650px;
+}
+.contact-heading {
+    color: black;
+    padding-bottom: 50px;
+}
+
+.form{
+    max-width: 404px;
+    margin: auto;
+}
+.form input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 9px;
+    margin: 10px 0px ;
+}
+.form textarea{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 9px;
+    margin: 10px 0px ;
+}
+.form button{
+   font-size: 22px;
+   border: 2px solid black;
+   border-radius: 12px;
+   padding: 6px;
+}
+.form button:hover{
+    color: azure;
+    background-color: black;
+    cursor: pointer;
+}
+ 
+/* -------------------------Our clients section----------------------------- */
+
+.our-client{
+    background-color: dimgrey;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.text-footer{
+   text-align: center;
+   padding: 9px;
+}
